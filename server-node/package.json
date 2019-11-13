@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel src --out-dir lib",
-    "dev2": "cross-env NODE_ENV=developend nodemon.cmd --exec babel-node src/server.js"
+    "dev": "cross-env NODE_ENV=developend nodemon.cmd --exec babel-node src/server.js"
   },
   "keywords": [],
   "author": "",
